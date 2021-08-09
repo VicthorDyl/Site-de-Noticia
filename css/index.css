@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: white url(../img/fundo.png) repeat-x top;
+}
+#conteiner{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 800px;
+    max-width: 900px;
+}
+#logo1{
+    display: auto;
+    width: 25%;
+    height: 40%;
+    float: left;
+    padding-right: 40%;
+    background: url(../img/logo.png) no-repeat top left;
+}
+#logo2{
+    display: auto;
+    width: 30%;
+    height: 90%;
+    float: right;
+    background: url(../img/detalhe-topo.png) no-repeat top right;
+}
+
+div#header{
+    height: 200px;
+}
+#menu ul{
+    position: absolute;
+    display: block;
+    width: 80%;
+    margin-top: 10%;
+    padding-left: 0;
+    border: 1px solid red;
+    list-style: none;
+}
+#menu ul li{
+    position: relative;
+    padding-top: 1.3%;
+    padding-bottom: 1.5%;
+    float: left;
+    background-color: rgb(204, 4, 4);
+}
+#menu ul a{
+    color: white;
+    font-size: 85%;
+    padding: 0.9em 1.5em;
+    text-decoration: none;
+    background: url(../img/divisor.png) no-repeat left;
+}
+#menu ul .primeiro a{
+    background: none;    
+}
+#menu ul a:hover{
+    color: black;
+    background:rgb(243, 74, 74);
+}
+li a{
+    color: white;
+    text-decoration: none;
+}
+
+body.home #navegacao a#home,
+body.brasil #navegacao a#brasil,
+body.internacional #navegacao a#internacional,
+body.economia #navegacao a#economia,
+body.saude #navegacao a#saude,
+body.ciencia #navegacao a#ciencia,
+body.fotos #navegacao a#fotos{
+    color: white;
+    background: rgb(243, 74, 74);
+    cursor: text;
+}
+
+#conteudo{
+    width: 100%;
+    height: 30%;
+    margin-top: 10%;
+    background-color: skyblue;
+    display: inline-block;
+}
+div#principal{
+    border: 1px solid red;
+    float: right;
+    width: 38%;
+    margin-right: 2.5%;
+    margin-left: auto;
+}
+div#lateral{
+    border: 1px solid red;
+    float: left;
+    width: 19%;
+}
+div#secundario{
+    border: 1px solid red;
+    float: right;
+    width: 38%;
+}
+#entrevista{
+    margin-top: 12%;
+}
+h3{
+    color: white;
+    padding: 3%;
+    margin-bottom: 3%;
+    background-color: rgb(27, 27, 146);
+}
+
+
